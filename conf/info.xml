@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title>애드센스 도우미</title>
+    <description>
+        애드센스의 JS를 하단에서 불러오거나 또는 애드센스를 관리자에게 노출하지 않아 부정클릭을 방지합니다.
+    </description>
+    <version>1.0</version>
+	
+    <date>2015-07-19</date>
+	
+    <author email_address="nettermhell@gmail.com" link="https://github.com/hjhj3686/xe-adsense-helper">
+        <name xml:lang="ko">불금</name>
+    </author>
+	
+	<extra_vars>
+		<var name="load_admin" type="select">
+			<title>관리자 이면 광고 가리기</title>
+			<options value="Y">
+				<title>사용함</title>
+			</options>
+			<options value="N">
+				<title>사용안함</title>
+			</options>
+			<description>
+				관리자의 경우 부정 클릭을 막기위해 광고를 불러오지 않습니다.
+			</description>
+		</var>
+	</extra_vars>
+</addon>
